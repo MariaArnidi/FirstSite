@@ -1,0 +1,3 @@
+<h1>Tu es parfaitement identifie! Bienvenue nabil !</h1></br>
+<p>KeyConnexion:lFIKN</p>
+<a href=/ProjetWeb2020/PagePrincipale?key=lFIKN>Entrer sur le site web</a>

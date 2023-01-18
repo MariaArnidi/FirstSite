@@ -1,0 +1,25 @@
+<h1>Bienvenue sur la page d'édition d'un article</h1>
+<body>
+<form action="PageEditionArticle" method="post" class="form">
+<div>
+<label for="titreArticle">Taper un titre pour l'article:
+<input type="text" name="titreArticle"/>
+</label>
+</div>
+<div><input type="radio" id="histoirePersonnelle" name="categorieRadio" value="per"><label for="histoirePersonnelle">Histoire personnelle</label><input type="radio" id="Actualités" name="categorieRadio" value="new"><label for="Actualités">Actualités</label><input type="radio" id="Sciences" name="categorieRadio" value="sci"><label for="Sciences">Sciences</label><input type="radio" id="Fiction" name="categorieRadio" value="fic"><label for="Fiction">Fictions</label><input type="radio" id="Philosophie" name="categorieRadio" value="phi"><label for="Philosophie">Philosophie</label><input type="radio" id="Poésie" name="categorieRadio" value="poe"><label for="Poésie">Poésie</label><input type="radio" id="Arts" name="categorieRadio" value="art"><label for="Arts">Arts</label></div>
+<label for="story">Raconte ton histoire:</label><textarea id="story" name="storyTextArea"rows="6" cols="70">Aujourd'hui, j'aimerai partager un super truc...</textarea>
+<input id="key" name="key" type="hidden" value="lFIKN">
+<div class="button">
+<button type="submit" name="button_soumettre_article" value="Soumettre">Soumettre Article</button>
+</div>
+</form>
+<div id=menu_liens>
+<a href=/ProjetWeb2020/PagePrincipale?key=lFIKN>Revenir sur la page principale</a>
+<a href=/ProjetWeb2020/PageRecherche?key=lFIKN>Revenir sur la page de recherche</a>
+<a href=/ProjetWeb2020/ProfilUser?key=lFIKN&loginUser=nabil>Consulter votre profil</a><br/>
+</div>
+</body>
+<form action="Deconnexion" method="post" class="form">
+<input id="key" name="key" type="hidden" value="lFIKN">
+<button type="submit" name="button_deconnexion" value="Se_deconnecter">Deconnexion</button>
+</form>

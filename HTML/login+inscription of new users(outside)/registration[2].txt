@@ -1,0 +1,2 @@
+<h1>C'est bon, t'es inscrit ghjkl!! Le 8 eme inscrit!</h1></br>
+<a href=/ProjetWeb2020/Authentification>Retourner sur la page de connexion!</a>

@@ -1,0 +1,24 @@
+key is lFIKN
+{"mail":"cesdc","login":"dokde","pwd":"emedp","nom":"bmedp","prenom":"alsza"}
+<h1>Resultat trouve!</h1>
+<fieldset>
+<div>Login :dokde</div>
+<form action="EnvoyerInvitation" method="post" class="form">
+<input id="key" name="key" type="hidden" value="lFIKN">
+<input id="loginAmi" name="loginAmi" type="hidden" value="dokde">
+<div class="button">
+<button type="submit" name="button_invitation" value="invitation">Envoyer une invitation</button>
+</div>
+</form>
+<a href=/ProjetWeb2020/ProfilUser?loginUser=dokde&key=lFIKN>Consulter profil</a>
+</fieldset>
+<div id=menu_liens>
+<a href=/ProjetWeb2020/PageEditionArticle?key=lFIKN>Vous voulez ecrire un article? C'est par ici</a><br/>
+<a href=/ProjetWeb2020/PagePrincipale?key=lFIKN>Revenir sur la page principale</a>
+<a href=/ProjetWeb2020/PageRecherche?key=lFIKN>Revenir sur la page de recherche</a><br/>
+<a href=/ProjetWeb2020/ProfilUser?key=lFIKN&loginUser=nabil>Consulter votre profil</a><br/>
+</div>
+<form action="Deconnexion" method="post" class="form">
+<input id="key" name="key" type="hidden" value="lFIKN">
+<button type="submit" name="button_deconnexion" value="Se_deconnecter">Deconnexion</button>
+</form>

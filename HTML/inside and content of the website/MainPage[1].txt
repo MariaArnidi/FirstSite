@@ -1,0 +1,13 @@
+<header>Bienvenue sur notre nouveau site WEB</header>
+<body>
+<h1>Merci pour votre soutien!!</h1>
+</body>
+<div id=menu_liens>
+<a href=/ProjetWeb2020/PageEditionArticle?key=lFIKN>Vous voulez ecrire un article? C'est par ici</a><br/>
+<a href=/ProjetWeb2020/PageRecherche?key=lFIKN>Chercher qqn ou un article sur le site? C'est ici</a><br/>
+<a href=/ProjetWeb2020/ProfilUser?key=lFIKN&loginUser=nabil>Consulter votre profil</a><br/>
+</div>
+<form action="Deconnexion" method="post" class="form">
+<input id="key" name="key" type="hidden" value="lFIKN">
+<button type="submit" name="button_deconnexion" value="Se_deconnecter">Deconnexion</button>
+</form>

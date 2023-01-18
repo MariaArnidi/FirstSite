@@ -1,0 +1,19 @@
+<h1>Bienvenue sur notre nouveau site WEB</h1>
+<body>
+<form action="Authentification" method="post" class="form">
+<div class=" ">
+<label for="login">Login:
+<input type="text" name="login"/>
+</label>
+</div>
+<div class=" ">
+<label for="pwd">Password:
+<input type="text" name="pwd"/>
+</label>
+</div>
+<div class="button">
+<button type="submit" name="button_connexion" value="Se_connecter">Connexion</button>
+</div>
+</form>
+<a href="/ProjetWeb2020/Inscription">T'es nouveau?Par ici l'inscription</a>
+</body>

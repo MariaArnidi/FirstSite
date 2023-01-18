@@ -1,0 +1,44 @@
+<fieldset>
+<legend>titre:confinement, categorie:histoirePersonnelle, ecrit par:nabil, publié le:2020/04/18 18:23:12</legend>
+<textarea rows="6" cols="70" readonly>Aujourd'hui, tout va mal! :(</textarea>
+<h3>Commentaires:</h3>
+<fieldset>
+<legend>@nabil, publié le 2020/04/18 21:10:14</legend>
+<textarea rows="2" cols="70" readonly>Triste :(</textarea>
+</fieldset>
+<fieldset>
+<legend>@nabil, publié le 2020/04/18 22:24:01</legend>
+<textarea rows="2" cols="70" readonly>dsl!! T_T</textarea>
+</fieldset>
+<fieldset>
+<legend>@nabil, publié le 2020/04/18 22:26:01</legend>
+<textarea rows="2" cols="70" readonly>ouin ouin</textarea>
+</fieldset>
+<fieldset>
+<legend>@likes, publié le 2020/04/18 22:34:07</legend>
+<textarea rows="2" cols="70" readonly>dsl bro:(</textarea>
+</fieldset>
+<fieldset>
+<legend>@nabil, publié le 2020/04/19 20:17:51</legend>
+<textarea rows="2" cols="70" readonly>Heureux!!</textarea>
+</fieldset>
+<form action="PosterCommentaire" method="post" class="form">
+<label for="commentaireARajouter">Laisse un commentaire:</label><textarea id="story" name="commentaireARajouter"rows="2" cols="70">Ecris ton comm...</textarea>
+<input id="key" name="key" type="hidden" value="lFIKN">
+<input id="idArticle" name="idArticle" type="hidden" value="1">
+<input id="loginUserDuCommentaire" name="loginUserDuCommentaire" type="hidden" value="nabil">
+<div class="button">
+<button type="submit" name="button_poster" value="poster">poster un commentaire</button>
+</div>
+</fieldset>
+<div id=menu_liens>
+<a href=/ProjetWeb2020/PosterCommentaire?key=lFIKN&idArticle=1>Revenir sur la page pour consulter l'article</a><br/>
+<a href=/ProjetWeb2020/PagePrincipale?key=lFIKN>Revenir sur la page principale</a><br/>
+<a href=/ProjetWeb2020/PageRecherche?key=lFIKN>Revenir sur la page de recherche</a><br/>
+<a href=/ProjetWeb2020/ProfilUser?key=lFIKN&loginUser=nabil>Consulter votre profil</a><br/>
+</div>
+</body>
+<form action="Deconnexion" method="post" class="form">
+<input id="key" name="key" type="hidden" value="lFIKN">
+<button type="submit" name="button_deconnexion" value="Se_deconnecter">Deconnexion</button>
+</form>

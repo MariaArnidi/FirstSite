@@ -1,0 +1,61 @@
+<h1>Bienvenue sur votre profil nabil</h1>
+<h2>prenom:nabil</h2>
+<h2>nom:chizs</h2>
+<h2>mail:hedsz</h2>
+<h2>login:nabil</h2>
+<h2>password:azeds</h2>
+<h2>Tes invitations amis:</h2>
+<fieldset>
+<div>Login :hudde</div>
+<form action="AccepterInvitation" method="post" class="form">
+<input id="key" name="key" type="hidden" value="lFIKN">
+<input id="loginUser" name="loginUser" type="hidden" value="nabil">
+<input id="loginAmi" name="loginAmi" type="hidden" value="hudde">
+<div class="button">
+<button type="submit" name="button_accepter" value="accepter">Accepter l'invitation</button>
+</div>
+<form action="RefuserInvitation" method="post" class="form">
+<input id="key" name="key" type="hidden" value="lFIKN">
+<input id="loginUser" name="loginUser" type="hidden" value="nabil">
+<input id="loginAmi" name="loginAmi" type="hidden" value="hudde">
+<div class="button">
+<button type="submit" name="button_refuser" value="refuser">Refuser l'invitation</button>
+</div>
+</form>
+<a href=/ProjetWeb2020/ProfilUser?loginUser=hudde&key=lFIKN>Consulter profil</a>
+</fieldset>
+<h2>Tes amis:</h2>
+<fieldset>
+<div>Login :likes</div>
+<a href=/ProjetWeb2020/ProfilUser?loginUser=likes&key=lFIKN>Consulter profil</a>
+</fieldset>
+<fieldset>
+<div>Login :abcde</div>
+<a href=/ProjetWeb2020/ProfilUser?loginUser=abcde&key=lFIKN>Consulter profil</a>
+</fieldset>
+<fieldset>
+<div>Login :login</div>
+<a href=/ProjetWeb2020/ProfilUser?loginUser=login&key=lFIKN>Consulter profil</a>
+</fieldset>
+<h2>Les articles que tu as écrit:</h2>
+<fieldset>
+<div>confinement, publié le 2020/04/18 18:23:12</div>
+<a href=/ProjetWeb2020/ConsulterArticle?idArticle=1&key=lFIKN>Consulter l'article</a>
+</fieldset>
+<fieldset>
+<div>confinement, publié le 2020/04/18 18:29:19</div>
+<a href=/ProjetWeb2020/ConsulterArticle?idArticle=2&key=lFIKN>Consulter l'article</a>
+</fieldset>
+<fieldset>
+<div>confinement, publié le 2020/04/18 23:11:06</div>
+<a href=/ProjetWeb2020/ConsulterArticle?idArticle=4&key=lFIKN>Consulter l'article</a>
+</fieldset>
+<div id=menu_liens>
+<a href=/ProjetWeb2020/PageEditionArticle?key=lFIKN>Vous voulez ecrire un article? C'est par ici</a><br/>
+<a href=/ProjetWeb2020/PagePrincipale?key=lFIKN>Revenir sur la page principale</a><br/>
+<a href=/ProjetWeb2020/PageRecherche?key=lFIKN>Chercher qqn ou un article sur le site? C'est ici</a><br/>
+</div>
+<form action="Deconnexion" method="post" class="form">
+<input id="key" name="key" type="hidden" value="lFIKN">
+<button type="submit" name="button_deconnexion" value="Se_deconnecter">Deconnexion</button>
+</form>
