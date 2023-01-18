@@ -1,0 +1,41 @@
+/*key is lFIKN
+{"mail":"cesdc","login":"dokde","pwd":"emedp","nom":"bmedp","prenom":"alsza"}*/
+<head>
+<title></title>
+<link rel="stylesheet" href="SearchPage[article]Style.css".css">
+</head>
+<body>
+<div id="header">
+<h1>Resultat trouve!</h1>
+</div>
+<div id="navbar">
+<ul>
+<li><a class="button" href=/ProjetWeb2020/PageEditionArticle?key=lFIKN>Vous voulez ecrire un article? C'est par ici</a></li>
+<li><a class="button" href=/ProjetWeb2020/PagePrincipale?key=lFIKN>Revenir sur la page principale</a></li>
+<li><a class="button" href=/ProjetWeb2020/PageRecherche?key=lFIKN>Revenir sur la page de recherche</a></li>
+<li><a class="button" href=/ProjetWeb2020/ProfilUser?key=lFIKN&loginUser=nabil>Consulter votre profil</a></li>
+</ul>
+</div>
+<div class="sideright">
+<form action="Deconnexion" method="post" class="form">
+<input id="key" name="key" type="hidden" value="lFIKN">
+<button type="submit" name="button_deconnexion" value="Se_deconnecter">Deconnexion</button>
+</form>
+</div>
+<div class="main">
+<fieldset>
+<div>Login :dokde</div>
+<form action="EnvoyerInvitation" method="post" class="form">
+<input id="key" name="key" type="hidden" value="lFIKN">
+<input id="loginAmi" name="loginAmi" type="hidden" value="dokde">
+<div class="button">
+<button type="submit" name="button_invitation" value="invitation">Envoyer une invitation</button>
+</div>
+</form>
+<a href=/ProjetWeb2020/ProfilUser?loginUser=dokde&key=lFIKN>Consulter profil</a>
+</fieldset>
+</div>
+<div id="footer">
+    <h2>Merci pour votre soutien!!</h2> 
+</div>
+</body>

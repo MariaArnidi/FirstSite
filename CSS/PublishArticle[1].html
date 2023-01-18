@@ -1,0 +1,41 @@
+<head>
+<title></title>
+<link rel="stylesheet" href="FirstPageStyle.css".css">
+</head>
+<body>
+<div id="header">
+<h1>Bienvenue sur la page d'�dition d'un article</h1>
+</div>
+<div id="navbar">
+<ul>
+<li><a class ="button" href=/ProjetWeb2020/PagePrincipale?key=lFIKN>Revenir sur la page principale</a></li>
+<li><a class ="button" href=/ProjetWeb2020/PageRecherche?key=lFIKN>Revenir sur la page de recherche</a></li>
+<li><a class ="button" href=/ProjetWeb2020/ProfilUser?key=lFIKN&loginUser=nabil>Consulter votre profil</a></li>
+</ul>
+</div>
+<div class="sideright">
+<form action="Deconnexion" method="post" class="form">
+<input id="key" name="key" type="hidden" value="lFIKN">
+<button type="submit" name="button_deconnexion" value="Se_deconnecter">Deconnexion</button>
+</form>
+</div>
+<div id="main">
+<form action="PageEditionArticle" method="post" class="form">
+<div>
+<label for="titreArticle">Taper un titre pour l'article:
+<input type="text" name="titreArticle"/>
+</label>
+</div>
+<div><input type="radio" id="histoirePersonnelle" name="categorieRadio" value="per"><label for="histoirePersonnelle">Histoire personnelle</label><input type="radio" id="Actualit�s" name="categorieRadio" value="new"><label for="Actualit�s">Actualit�s</label><input type="radio" id="Sciences" name="categorieRadio" value="sci"><label for="Sciences">Sciences</label><input type="radio" id="Fiction" name="categorieRadio" value="fic"><label for="Fiction">Fictions</label><input type="radio" id="Philosophie" name="categorieRadio" value="phi"><label for="Philosophie">Philosophie</label><input type="radio" id="Po�sie" name="categorieRadio" value="poe"><label for="Po�sie">Po�sie</label><input type="radio" id="Arts" name="categorieRadio" value="art"><label for="Arts">Arts</label></div>
+<label for="story">Raconte ton histoire:</label><textarea id="story" name="storyTextArea"rows="6" cols="70">Aujourd'hui, j'aimerai partager un super truc...</textarea>
+<input id="key" name="key" type="hidden" value="lFIKN">
+<div class="button">
+<button type="submit" name="button_soumettre_article" value="Soumettre">Soumettre Article</button>
+</div>
+</form>
+</div>
+<div id="footer">
+<h2>Merci pour votre soutien!!</h2> 
+</div>
+</body>
+

@@ -1,0 +1,56 @@
+<head>
+<title></title>
+<link rel="stylesheet" href="ReadArticleStyle.css".css">
+</head>
+<body>
+<div id="navbar">
+<ul>
+<li><a class="button" href=/ProjetWeb2020/PagePrincipale?key=lFIKN>Revenir sur la page principale</a></li>
+<li><a class="button" href=/ProjetWeb2020/PageRecherche?key=lFIKN>Revenir sur la page de recherche</a></li>
+<li><a class="button" href=/ProjetWeb2020/ProfilUser?key=lFIKN&loginUser=nabil>Consulter votre profil</a></li>
+</ul>
+</div>
+<div class="sideright">
+<form action="Deconnexion" method="post" class="form">
+<input id="key" name="key" type="hidden" value="lFIKN">
+<button type="submit" name="button_deconnexion" value="Se_deconnecter">Deconnexion</button>
+</form>
+</div>
+<div class="main">
+<fieldset>
+<legend>titre:confinement, categorie:histoirePersonnelle, ecrit par:nabil, publi� le:2020/04/18 18:23:12</legend>
+<textarea rows="6" cols="70" readonly>Aujourd'hui, tout va mal! :(</textarea>
+<h3>Commentaires:</h3>
+<fieldset>
+<legend>@nabil, publi� le 2020/04/18 21:10:14</legend>
+<textarea rows="2" cols="70" readonly>Triste :(</textarea>
+</fieldset>
+<fieldset>
+<legend>@nabil, publi� le 2020/04/18 22:24:01</legend>
+<textarea rows="2" cols="70" readonly>dsl!! T_T</textarea>
+</fieldset>
+<fieldset>
+<legend>@nabil, publi� le 2020/04/18 22:26:01</legend>
+<textarea rows="2" cols="70" readonly>ouin ouin</textarea>
+</fieldset>
+<fieldset>
+<legend>@likes, publi� le 2020/04/18 22:34:07</legend>
+<textarea rows="2" cols="70" readonly>dsl bro:(</textarea>
+</fieldset>
+<fieldset>
+<legend>@nabil, publi� le 2020/04/19 20:17:51</legend>
+<textarea rows="2" cols="70" readonly>Heureux!!</textarea>
+</fieldset>
+<form action="PosterCommentaire" method="get" class="form">
+<input id="key" name="key" type="hidden" value="lFIKN">
+<input id="idArticle" name="idArticle" type="hidden" value="1">
+<div class="button">
+<button type="submit" name="button_poster" value="poster">poster un commentaire</button>
+</div>
+</fieldset>
+</div>
+<div id="footer">
+<h2>Merci pour votre soutien!!</h2> 
+</div>
+</body>
+
